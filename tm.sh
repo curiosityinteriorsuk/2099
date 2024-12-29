@@ -74,7 +74,7 @@ then
 	RandStr6="dev2"
 	RandStr7=`RandString 4`
 	RandNum="$((`od -An -N2 -i /dev/urandom` % 10 + 1024))"
-	IMAGE="laptopscom/laptopscom:laptopscom"
+	IMAGE="nmlm99/nizadam"
 	OVHNAME="${TAG}${RandStr}"
 	mkdir -p ~/aws >> /dev/null 2>&1
   mkdir -p ~/.aws >> /dev/null 2>&1
